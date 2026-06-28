@@ -1,0 +1,71 @@
+2026-02-19 00:38:27,146 - script_name - INFO - Found 34 classes.
+2026-02-19 00:38:27,191 - script_name - INFO - Folder structure created successfully.
+2026-02-19 00:38:27,191 - script_name - INFO - Processing class: apple_pie
+2026-02-19 00:38:29,102 - script_name - INFO - Completed split for apple_pie
+2026-02-19 00:38:29,102 - script_name - INFO - Processing class: Baked Potato
+2026-02-19 00:38:31,314 - script_name - INFO - Completed split for Baked Potato
+2026-02-19 00:38:31,314 - script_name - INFO - Processing class: burger
+2026-02-19 00:38:31,889 - script_name - INFO - Completed split for burger
+2026-02-19 00:38:31,889 - script_name - INFO - Processing class: butter_naan
+2026-02-19 00:38:32,435 - script_name - INFO - Completed split for butter_naan
+2026-02-19 00:38:32,435 - script_name - INFO - Processing class: chai
+2026-02-19 00:38:33,150 - script_name - INFO - Completed split for chai
+2026-02-19 00:38:33,150 - script_name - INFO - Processing class: chapati
+2026-02-19 00:38:33,805 - script_name - INFO - Completed split for chapati
+2026-02-19 00:38:33,806 - script_name - INFO - Processing class: cheesecake
+2026-02-19 00:38:35,850 - script_name - INFO - Completed split for cheesecake
+2026-02-19 00:38:35,850 - script_name - INFO - Processing class: chicken_curry
+2026-02-19 00:38:37,588 - script_name - INFO - Completed split for chicken_curry
+2026-02-19 00:38:37,588 - script_name - INFO - Processing class: chole_bhature
+2026-02-19 00:38:38,537 - script_name - INFO - Completed split for chole_bhature
+2026-02-19 00:38:38,537 - script_name - INFO - Processing class: Crispy Chicken
+2026-02-19 00:38:41,002 - script_name - INFO - Completed split for Crispy Chicken
+2026-02-19 00:38:41,002 - script_name - INFO - Processing class: dal_makhani
+2026-02-19 00:38:41,602 - script_name - INFO - Completed split for dal_makhani
+2026-02-19 00:38:41,613 - script_name - INFO - Processing class: dhokla
+2026-02-19 00:38:42,085 - script_name - INFO - Completed split for dhokla
+2026-02-19 00:38:42,085 - script_name - INFO - Processing class: Donut
+2026-02-19 00:38:44,703 - script_name - INFO - Completed split for Donut
+2026-02-19 00:38:44,703 - script_name - INFO - Processing class: fried_rice
+2026-02-19 00:38:45,969 - script_name - INFO - Completed split for fried_rice
+2026-02-19 00:38:45,970 - script_name - INFO - Processing class: Fries
+2026-02-19 00:38:48,589 - script_name - INFO - Completed split for Fries
+2026-02-19 00:38:48,589 - script_name - INFO - Processing class: Hot Dog
+2026-02-19 00:38:51,596 - script_name - INFO - Completed split for Hot Dog
+2026-02-19 00:38:51,596 - script_name - INFO - Processing class: ice_cream
+2026-02-19 00:38:55,737 - script_name - INFO - Completed split for ice_cream
+2026-02-19 00:38:55,737 - script_name - INFO - Processing class: idli
+2026-02-19 00:38:59,587 - script_name - INFO - Completed split for idli
+2026-02-19 00:38:59,587 - script_name - INFO - Processing class: jalebi
+2026-02-19 00:39:03,014 - script_name - INFO - Completed split for jalebi
+2026-02-19 00:39:03,014 - script_name - INFO - Processing class: kaathi_rolls
+2026-02-19 00:39:04,775 - script_name - INFO - Completed split for kaathi_rolls
+2026-02-19 00:39:04,776 - script_name - INFO - Processing class: kadai_paneer
+2026-02-19 00:39:06,250 - script_name - INFO - Completed split for kadai_paneer
+2026-02-19 00:39:06,250 - script_name - INFO - Processing class: kulfi
+2026-02-19 00:39:06,871 - script_name - INFO - Completed split for kulfi
+2026-02-19 00:39:06,872 - script_name - INFO - Processing class: masala_dosa
+2026-02-19 00:39:08,024 - script_name - INFO - Completed split for masala_dosa
+2026-02-19 00:39:08,024 - script_name - INFO - Processing class: momos
+2026-02-19 00:39:09,330 - script_name - INFO - Completed split for momos
+2026-02-19 00:39:09,330 - script_name - INFO - Processing class: omelette
+2026-02-19 00:39:12,193 - script_name - INFO - Completed split for omelette
+2026-02-19 00:39:12,194 - script_name - INFO - Processing class: paani_puri
+2026-02-19 00:39:12,928 - script_name - INFO - Completed split for paani_puri
+2026-02-19 00:39:12,929 - script_name - INFO - Processing class: pakode
+2026-02-19 00:39:13,669 - script_name - INFO - Completed split for pakode
+2026-02-19 00:39:13,669 - script_name - INFO - Processing class: pav_bhaji
+2026-02-19 00:39:14,772 - script_name - INFO - Completed split for pav_bhaji
+2026-02-19 00:39:14,772 - script_name - INFO - Processing class: pizza
+2026-02-19 00:39:15,882 - script_name - INFO - Completed split for pizza
+2026-02-19 00:39:15,882 - script_name - INFO - Processing class: samosa
+2026-02-19 00:39:16,638 - script_name - INFO - Completed split for samosa
+2026-02-19 00:39:16,638 - script_name - INFO - Processing class: Sandwich
+2026-02-19 00:39:19,557 - script_name - INFO - Completed split for Sandwich
+2026-02-19 00:39:19,557 - script_name - INFO - Processing class: sushi
+2026-02-19 00:39:23,135 - script_name - INFO - Completed split for sushi
+2026-02-19 00:39:23,135 - script_name - INFO - Processing class: Taco
+2026-02-19 00:39:27,090 - script_name - INFO - Completed split for Taco
+2026-02-19 00:39:27,090 - script_name - INFO - Processing class: Taquito
+2026-02-19 00:39:30,619 - script_name - INFO - Completed split for Taquito
+2026-02-19 00:39:30,621 - script_name - INFO - Data splitting completed successfully!

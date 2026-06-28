@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food Classification System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+        }
+
+        .main-container {
+            display: flex;
+        }
+
+        /* LEFT SIDEBAR */
+        .sidebar {
+            width: 20%;
+            background: #1f2937;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        .skill-box {
+            background: #374151;
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        /* CENTER SECTION */
+        .content {
+            width: 55%;
+            padding: 40px;
+        }
+
+        .image-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .img-box {
+            width: 45%;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .img-box img {
+            max-width: 100%;
+            max-height: 250px;
+        }
+
+        .model-buttons button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: #2563eb;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .model-buttons button:hover {
+            background: #1e40af;
+        }
+
+        .predict-btn {
+            margin-top: 20px;
+            padding: 10px 30px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* RIGHT PANEL */
+        .right-panel {
+            width: 25%;
+            background: #ffffff;
+            padding: 20px;
+            border-left: 1px solid #ddd;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+
+        /* Scrollable Class List */
+        .class-list-container {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .class-list-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .class-list-container li {
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Badge Styling */
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .healthy {
+            background-color: #16a34a;
+        }
+
+        .unhealthy {
+            background-color: #dc2626;
+        }
+
+        pre {
+            max-height: 200px;
+            overflow-y: auto;
+            background: #f4f4f4;
+            padding: 10px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+        <img src="{{ url_for('static', filename='9c194c7e-02b5-404e-a2c7-f1ac175fc02b.jpeg') }}"
+     class="profile-img"
+     alt="Navitha Profile Photo">
+        <h2>Navitha G</h2>
+        <p>AI Intern</p>
+
+        <h3>Skilled In</h3>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Machine Learning</div>
+        <div class="skill-box">Deep Learning</div>
+        <div class="skill-box">NLP</div>
+        <div class="skill-box">GenAI</div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="content">
+
+        <h1>Food Image Classification</h1>
+
+        <div class="image-section">
+            <div class="img-box">
+                <h3>Uploaded Image</h3>
+                <img id="uploadedPreview"
+     src=""
+     alt="Uploaded Food Image">
+            </div>
+
+            <div class="img-box">
+                <h3>Predicted Result</h3>
+                <div id="predictionResult">Prediction will appear here</div>
+                <div id="healthBadge"></div>
+            </div>
+        </div>
+
+        <input type="file" id="imageInput" onchange="previewImage()">
+
+        <h3>Select Model</h3>
+
+        <div class="model-buttons">
+            <button onclick="selectModel('CUSTOM CNN')">CUSTOM CNN</button>
+            <button onclick="selectModel('VGG16')">VGG16</button>
+            <button onclick="selectModel('RESNET50')">RESNET50</button>
+        </div>
+
+        <button class="predict-btn" onclick="predict()">Predict</button>
+
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+
+        <!-- INITIAL CLASS LIST -->
+        <div id="classListSection">
+            <h2>Food Classes</h2>
+            <div class="class-list-container">
+                <ul>
+                    {% for cls in classes %}
+                        <li>{{ cls }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- RESULTS -->
+        <div id="resultsSection" style="display:none;">
+
+            <h2>Model Performance</h2>
+
+            <p><strong>Test Performance:</strong></p>
+            <div id="testPerformance"></div>
+
+            <p><strong>Test Accuracy:</strong></p>
+            <div id="testAccuracy"></div>
+
+            <h3>Classification Report</h3>
+            <pre id="classReport"></pre>
+
+            <hr>
+
+            <h2>Nutritional Facts</h2>
+            <div id="nutritionFacts"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+let selectedModel = "";
+
+function previewImage() {
+    const file = document.getElementById("imageInput").files[0];
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        document.getElementById("uploadedPreview").src = e.target.result;
+    }
+    reader.readAsDataURL(file);
+}
+
+function selectModel(model) {
+    selectedModel = model;
+    alert(model + " selected");
+}
+
+function predict() {
+
+    if (!selectedModel) {
+        alert("Please select a model");
+        return;
+    }
+
+    const file = document.getElementById("imageInput").files[0];
+    const formData = new FormData();
+    formData.append("image", file);
+    formData.append("model", selectedModel);
+
+    fetch("/predict", {
+        method: "POST",
+        body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+
+        document.getElementById("classListSection").style.display = "none";
+        document.getElementById("resultsSection").style.display = "block";
+
+        document.getElementById("predictionResult").innerText = data.predicted_class;
+        document.getElementById("testPerformance").innerText =
+            "Model Used: " + selectedModel;
+        document.getElementById("testAccuracy").innerText =
+            data.test_accuracy;
+        document.getElementById("classReport").innerText =
+            JSON.stringify(data.classification_report, null, 2);
+
+        let nutritionHTML = "";
+        let calories = 0;
+
+        if (data.nutrition.message) {
+            nutritionHTML = data.nutrition.message;
+        } else {
+            for (let key in data.nutrition) {
+                nutritionHTML += `<p><strong>${key}:</strong> ${data.nutrition[key]}</p>`;
+                if (key.toLowerCase() === "calories") {
+                    calories = parseInt(data.nutrition[key]);
+                }
+            }
+        }
+
+        document.getElementById("nutritionFacts").innerHTML = nutritionHTML;
+
+        // Healthy / Unhealthy Badge
+        let badge = document.getElementById("healthBadge");
+        badge.innerHTML = "";
+
+        if (calories > 0) {
+            if (calories < 400) {
+                badge.innerHTML = '<span class="badge healthy">Healthy</span>';
+            } else {
+                badge.innerHTML = '<span class="badge unhealthy">Unhealthy</span>';
+            }
+        }
+
+    });
+}
+
+</script>
+
+</body>
+</html>

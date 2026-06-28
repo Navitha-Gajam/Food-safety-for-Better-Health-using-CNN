@@ -1,0 +1,40 @@
+2026-02-18 23:57:55,764 - script_name - INFO - Script execution started
+2026-02-18 23:57:55,764 - script_name - INFO - Initializing NutritionDataManager
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=226
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=200
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=296
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=295
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=310
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=120
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=104
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=321
+2026-02-18 23:57:55,770 - script_name - DEBUG - Generating nutrition values for calories=240
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=427
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=330
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=160
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=250
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=207
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=58
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=150
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=350
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=300
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=180
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=250
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=230
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=154
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=180
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=312
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=400
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=266
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=262
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=200
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=161
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=320
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=260
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=365
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=290
+2026-02-18 23:57:55,771 - script_name - DEBUG - Generating nutrition values for calories=250
+2026-02-18 23:57:55,771 - script_name - INFO - Nutrition data dictionary created successfully
+2026-02-18 23:57:55,774 - script_name - INFO - JSON file created successfully
+2026-02-18 23:57:57,842 - script_name - INFO - Data sent to Redis successfully
+2026-02-18 23:57:57,842 - script_name - INFO - Script execution completed

@@ -1,0 +1,342 @@
+ {
+    "Taco": {
+        "calories": 226,
+        "protein_g": 9,
+        "fat_g": 12,
+        "carbohydrates_g": 27.12,
+        "fiber_g": 4.5,
+        "sugar_g": 11.3,
+        "sodium_mg": 565.0,
+        "cholesterol_mg": 36
+    },
+    "Taquito": {
+        "calories": 200,
+        "protein_g": 7,
+        "fat_g": 10,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 3.5,
+        "sugar_g": 10.0,
+        "sodium_mg": 500.0,
+        "cholesterol_mg": 30
+    },
+    "apple_pie": {
+        "calories": 296,
+        "protein_g": 3,
+        "fat_g": 14,
+        "carbohydrates_g": 35.52,
+        "fiber_g": 1.5,
+        "sugar_g": 14.8,
+        "sodium_mg": 740.0,
+        "cholesterol_mg": 42
+    },
+    "burger": {
+        "calories": 295,
+        "protein_g": 17,
+        "fat_g": 13,
+        "carbohydrates_g": 35.4,
+        "fiber_g": 8.5,
+        "sugar_g": 14.75,
+        "sodium_mg": 737.5,
+        "cholesterol_mg": 39
+    },
+    "butter_naan": {
+        "calories": 310,
+        "protein_g": 8,
+        "fat_g": 9,
+        "carbohydrates_g": 37.2,
+        "fiber_g": 4.0,
+        "sugar_g": 15.5,
+        "sodium_mg": 775.0,
+        "cholesterol_mg": 27
+    },
+    "chai": {
+        "calories": 120,
+        "protein_g": 3,
+        "fat_g": 5,
+        "carbohydrates_g": 14.4,
+        "fiber_g": 1.5,
+        "sugar_g": 6.0,
+        "sodium_mg": 300.0,
+        "cholesterol_mg": 15
+    },
+    "chapati": {
+        "calories": 104,
+        "protein_g": 3,
+        "fat_g": 1,
+        "carbohydrates_g": 12.48,
+        "fiber_g": 1.5,
+        "sugar_g": 5.2,
+        "sodium_mg": 260.0,
+        "cholesterol_mg": 3
+    },
+    "cheesecake": {
+        "calories": 321,
+        "protein_g": 6,
+        "fat_g": 22,
+        "carbohydrates_g": 38.52,
+        "fiber_g": 3.0,
+        "sugar_g": 16.05,
+        "sodium_mg": 802.5,
+        "cholesterol_mg": 66
+    },
+    "chicken_curry": {
+        "calories": 240,
+        "protein_g": 18,
+        "fat_g": 15,
+        "carbohydrates_g": 28.8,
+        "fiber_g": 9.0,
+        "sugar_g": 12.0,
+        "sodium_mg": 600.0,
+        "cholesterol_mg": 45
+    },
+    "chole_bhature": {
+        "calories": 427,
+        "protein_g": 12,
+        "fat_g": 20,
+        "carbohydrates_g": 51.24,
+        "fiber_g": 6.0,
+        "sugar_g": 21.35,
+        "sodium_mg": 1067.5,
+        "cholesterol_mg": 60
+    },
+    "dal_makhani": {
+        "calories": 330,
+        "protein_g": 14,
+        "fat_g": 18,
+        "carbohydrates_g": 39.6,
+        "fiber_g": 7.0,
+        "sugar_g": 16.5,
+        "sodium_mg": 825.0,
+        "cholesterol_mg": 54
+    },
+    "dhokla": {
+        "calories": 160,
+        "protein_g": 8,
+        "fat_g": 4,
+        "carbohydrates_g": 19.2,
+        "fiber_g": 4.0,
+        "sugar_g": 8.0,
+        "sodium_mg": 400.0,
+        "cholesterol_mg": 12
+    },
+    "fried_rice": {
+        "calories": 250,
+        "protein_g": 6,
+        "fat_g": 9,
+        "carbohydrates_g": 30.0,
+        "fiber_g": 3.0,
+        "sugar_g": 12.5,
+        "sodium_mg": 625.0,
+        "cholesterol_mg": 27
+    },
+    "ice_cream": {
+        "calories": 207,
+        "protein_g": 4,
+        "fat_g": 11,
+        "carbohydrates_g": 24.84,
+        "fiber_g": 2.0,
+        "sugar_g": 10.35,
+        "sodium_mg": 517.5,
+        "cholesterol_mg": 33
+    },
+    "idli": {
+        "calories": 58,
+        "protein_g": 2,
+        "fat_g": 0.4,
+        "carbohydrates_g": 6.96,
+        "fiber_g": 1.0,
+        "sugar_g": 2.9,
+        "sodium_mg": 145.0,
+        "cholesterol_mg": 1.2
+    },
+    "jalebi": {
+        "calories": 150,
+        "protein_g": 1,
+        "fat_g": 8,
+        "carbohydrates_g": 18.0,
+        "fiber_g": 0.5,
+        "sugar_g": 7.5,
+        "sodium_mg": 375.0,
+        "cholesterol_mg": 24
+    },
+    "kaathi_rolls": {
+        "calories": 350,
+        "protein_g": 15,
+        "fat_g": 18,
+        "carbohydrates_g": 42.0,
+        "fiber_g": 7.5,
+        "sugar_g": 17.5,
+        "sodium_mg": 875.0,
+        "cholesterol_mg": 54
+    },
+    "kadai_paneer": {
+        "calories": 300,
+        "protein_g": 14,
+        "fat_g": 22,
+        "carbohydrates_g": 36.0,
+        "fiber_g": 7.0,
+        "sugar_g": 15.0,
+        "sodium_mg": 750.0,
+        "cholesterol_mg": 66
+    },
+    "kulfi": {
+        "calories": 180,
+        "protein_g": 5,
+        "fat_g": 10,
+        "carbohydrates_g": 21.6,
+        "fiber_g": 2.5,
+        "sugar_g": 9.0,
+        "sodium_mg": 450.0,
+        "cholesterol_mg": 30
+    },
+    "masala_dosa": {
+        "calories": 250,
+        "protein_g": 6,
+        "fat_g": 8,
+        "carbohydrates_g": 30.0,
+        "fiber_g": 3.0,
+        "sugar_g": 12.5,
+        "sodium_mg": 625.0,
+        "cholesterol_mg": 24
+    },
+    "momos": {
+        "calories": 230,
+        "protein_g": 9,
+        "fat_g": 7,
+        "carbohydrates_g": 27.6,
+        "fiber_g": 4.5,
+        "sugar_g": 11.5,
+        "sodium_mg": 575.0,
+        "cholesterol_mg": 21
+    },
+    "omelette": {
+        "calories": 154,
+        "protein_g": 11,
+        "fat_g": 12,
+        "carbohydrates_g": 18.48,
+        "fiber_g": 5.5,
+        "sugar_g": 7.7,
+        "sodium_mg": 385.0,
+        "cholesterol_mg": 36
+    },
+    "paani_puri": {
+        "calories": 180,
+        "protein_g": 4,
+        "fat_g": 6,
+        "carbohydrates_g": 21.6,
+        "fiber_g": 2.0,
+        "sugar_g": 9.0,
+        "sodium_mg": 450.0,
+        "cholesterol_mg": 18
+    },
+    "pakode": {
+        "calories": 312,
+        "protein_g": 6,
+        "fat_g": 20,
+        "carbohydrates_g": 37.44,
+        "fiber_g": 3.0,
+        "sugar_g": 15.6,
+        "sodium_mg": 780.0,
+        "cholesterol_mg": 60
+    },
+    "pav_bhaji": {
+        "calories": 400,
+        "protein_g": 9,
+        "fat_g": 18,
+        "carbohydrates_g": 48.0,
+        "fiber_g": 4.5,
+        "sugar_g": 20.0,
+        "sodium_mg": 1000.0,
+        "cholesterol_mg": 54
+    },
+    "pizza": {
+        "calories": 266,
+        "protein_g": 11,
+        "fat_g": 10,
+        "carbohydrates_g": 31.92,
+        "fiber_g": 5.5,
+        "sugar_g": 13.3,
+        "sodium_mg": 665.0,
+        "cholesterol_mg": 30
+    },
+    "samosa": {
+        "calories": 262,
+        "protein_g": 5,
+        "fat_g": 17,
+        "carbohydrates_g": 31.44,
+        "fiber_g": 2.5,
+        "sugar_g": 13.1,
+        "sodium_mg": 655.0,
+        "cholesterol_mg": 51
+    },
+    "sushi": {
+        "calories": 200,
+        "protein_g": 8,
+        "fat_g": 3,
+        "carbohydrates_g": 24.0,
+        "fiber_g": 4.0,
+        "sugar_g": 10.0,
+        "sodium_mg": 500.0,
+        "cholesterol_mg": 9
+    },
+    "Baked Potato": {
+        "calories": 161,
+        "protein_g": 4,
+        "fat_g": 0.2,
+        "carbohydrates_g": 19.32,
+        "fiber_g": 2.0,
+        "sugar_g": 8.05,
+        "sodium_mg": 402.5,
+        "cholesterol_mg": 0.6
+    },
+    "Crispy Chicken": {
+        "calories": 320,
+        "protein_g": 22,
+        "fat_g": 18,
+        "carbohydrates_g": 38.4,
+        "fiber_g": 11.0,
+        "sugar_g": 16.0,
+        "sodium_mg": 800.0,
+        "cholesterol_mg": 54
+    },
+    "Donut": {
+        "calories": 260,
+        "protein_g": 3,
+        "fat_g": 14,
+        "carbohydrates_g": 31.2,
+        "fiber_g": 1.5,
+        "sugar_g": 13.0,
+        "sodium_mg": 650.0,
+        "cholesterol_mg": 42
+    },
+    "Fries": {
+        "calories": 365,
+        "protein_g": 4,
+        "fat_g": 17,
+        "carbohydrates_g": 43.8,
+        "fiber_g": 2.0,
+        "sugar_g": 18.25,
+        "sodium_mg": 912.5,
+        "cholesterol_mg": 51
+    },
+    "Hot Dog": {
+        "calories": 290,
+        "protein_g": 10,
+        "fat_g": 26,
+        "carbohydrates_g": 34.8,
+        "fiber_g": 5.0,
+        "sugar_g": 14.5,
+        "sodium_mg": 725.0,
+        "cholesterol_mg": 78
+    },
+    "Sandwich": {
+        "calories": 250,
+        "protein_g": 12,
+        "fat_g": 8,
+        "carbohydrates_g": 30.0,
+        "fiber_g": 6.0,
+        "sugar_g": 12.5,
+        "sodium_mg": 625.0,
+        "cholesterol_mg": 24
+    }
+}

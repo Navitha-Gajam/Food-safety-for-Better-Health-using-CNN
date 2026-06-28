@@ -5,38 +5,68 @@ Author: Navitha G
 Project Overview
 
 Food Safety for Better Health using CNN is a deep learning-based web application that classifies food images and provides nutritional information to promote healthier eating habits. The system compares Custom CNN, VGG16, and ResNet50. After prediction, it retrieves nutritional facts, model metrics, and classification reports from Redis and displays them in a Flask web interface.
+
+
 Objectives
+
 •	Classify food images using Deep Learning.
+
 •	Compare three CNN models.
+
 •	Display model performance.
+
 •	Retrieve nutritional facts from Redis.
+
 •	Build an interactive Flask web application.
 
 
 Features
+
 •	Upload food image.
+
 •	Select prediction model (Custom CNN, VGG16, ResNet50).
+
 •	Display uploaded image.
+
 •	Display predicted food image/class.
+
 •	Show prediction confidence.
+
 •	Display nutritional facts.
+
 •	Show Healthy/Unhealthy badge.
+
 •	Display Test Accuracy, Precision, Recall, F1 Score, Classification Report.
+
 •	Retrieve model metrics from Redis.
+
 •	Modern responsive UI.
 
 
+
 Technologies Used
+
 •	Python 3.10
+
 •	TensorFlow
+
 •	Keras
+
+
 •	NumPy
+
 •	OpenCV
+
 •	Pillow
+
 •	Flask
+
 •	Redis
+
 •	HTML5
+
 •	CSS3
+
 •	JavaScript
 
 
